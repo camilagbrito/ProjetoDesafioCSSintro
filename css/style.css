@@ -21,22 +21,138 @@ a, a:hover{
 }
 
 .container{
-    border: 1px solid red;
     max-width: 960px;
     margin: 0 auto;
 }
 
 header{
-    background-color: var(--color-red);
+    padding: 0 15px;
     height: 100px;
+    background-color: var(--color-red);
+    color: var(--color-white);
 }
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+
+header h1{
+    font-size: 18px;
+}
+
+.social-medias img{
+    width: 30px;
+    height: 30px;
+}
+
+header .social-medias{
+    display: flex;
+    align-items: center;
+    width: 125px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
 #introduction{
     background-color: var(--color-purple);
+    padding: 20px 15px;
 }
+
+#introduction h2{
+  font-size: 32px;  
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+#introduction .introduction-card{
+    background-color: var(--color-light-gray);
+    padding: 20px;
+    height: 127px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#introduction h3{
+    font-size: 20px;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+#introduction p{
+    font-size: 14px;
+    color: var(--color-black);
+}
+
 #modalities{
     background-color: var(--color-white);
+    padding: 20px 15px;
 }
+
+#modalities h2{
+    font-size: 32px;  
+    color: var(--color-red);
+    margin-bottom: 40px;
+}
+
+#modalities .modalities-card{
+    background-color: var(--color-purple);
+    padding: 20px;
+    height: 106px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#modalities h3{
+    font-size: 20px;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+#modalities p{
+    font-size: 14px;
+    color: var(--color-white);
+}
+
 footer{
     background-color: #000;
     height: 262px;
+    padding: 0 15px;
+    color: var(--color-white);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer .instagram{
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+footer .twiter{
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+footer .informations{
+    margin-top: 30px ;
+    text-align: center;
 }
