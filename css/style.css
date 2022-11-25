@@ -25,3 +25,18 @@ a, a:hover{
     max-width: 960px;
     margin: 0 auto;
 }
+
+header{
+    background-color: var(--color-red);
+    height: 100px;
+}
+#introduction{
+    background-color: var(--color-purple);
+}
+#modalities{
+    background-color: var(--color-white);
+}
+footer{
+    background-color: #000;
+    height: 262px;
+}
